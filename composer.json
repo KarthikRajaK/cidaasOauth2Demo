@@ -1,0 +1,44 @@
+{
+    "name": "cidaas/oauth2demo",
+    "description": "Cidaas OpenId Connect Integration",
+    "version": "1.0.0",
+    "type": "shopware-platform-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "cidaas",
+            "homepage": "https://cidaas.com",
+            "role": "User Management"
+        }
+    ],
+    "require": {
+        "shopware/core": "~6.2.*",
+        "league/oauth2-client": "2.4.1"
+    },
+    "extra": {
+        "shopware-plugin-class": "Cidaas\\Oauth2Demo\\CidaasOauth2Demo",
+        "plugin-icon": "src/Resources/plugin.png",
+        "copyright": "(c) by Widas GmbH",
+        "label": {
+            "de-DE": "cidaas Oauth2 Integration für Shopware 6",
+            "en-GB": "cidaas Oauth2 Integration for Shopware 6"
+        },
+        "description": {
+            "de-DE": "Cidaas OpenId Connect Login",
+            "en-GB": "Cidaas OpenId Connect Login"
+        },
+        "manufacturerLink": {
+            "de-DE": "https://cidaas.com",
+            "en-GB": "https://cidaas.com"
+        },
+        "supportLink": {
+            "de-DE": "https://docs.cidaas.de",
+            "en-GB": "https://docs.cidaas.de"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Cidaas\\Oauth2Demo\\": "src/"
+        }
+    }
+}

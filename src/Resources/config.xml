@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/master/src/Core/System/SystemConfig/Schema/config.xsd">
+
+    <card>
+        <title>Cidaas Demo Configuration</title>
+        <title lang="de-DE">Grundeinstellungen</title>                
+        <input-field>
+            <name>cient_id</name>
+            <copyable>true</copyable>
+            <label>Client Id</label>
+            <label lang="de-DE">Client Id</label>
+            <placeholder>1234xyza-abcd-1234-0000-abcdefghijkl</placeholder>
+            <placeholder lang="de-DE">1234xyza-abcd-1234-0000-abcdefghijkl</placeholder>
+            <helpText>Please enter Client ID</helpText>
+            <helpText lang="de-DE">Bitte geben Sie die Client ID ein</helpText>
+        </input-field>
+        <input-field>
+            <name>cient_secret</name>
+            <label>Client Secret</label>
+            <label lang="de-DE">Client Secret</label>
+            <placeholder>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx</placeholder>
+            <placeholder lang="de-DE">xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx</placeholder>
+            <helpText>Please enter Client Secret</helpText>
+            <helpText lang="de-DE">Bitte geben Sie die Client Secret ein</helpText>
+        </input-field>
+        <input-field>
+            <name>redirect_uri</name>
+            <label>Redirect URI</label>
+            <label lang="de-DE">Redirect URI</label>
+            <placeholder>http://*</placeholder>
+            <placeholder lang="de-DE">http://*</placeholder>
+            <helpText>Please enter redirect_uri</helpText>
+            <helpText lang="de-DE">Bitte geben Sie die redirect_uri ein</helpText>
+        </input-field>
+        <input-field>
+            <name>authorization_url</name>
+            <label>Authorize URL</label>
+            <label lang="de-DE">Authorize URL</label>
+            <placeholder>https://*</placeholder>
+            <placeholder lang="de-DE">https://*</placeholder>
+            <helpText>Please enter Authorization Url</helpText>
+            <helpText lang="de-DE">Bitte geben Sie die Authorization ein</helpText>
+        </input-field>
+        <input-field>
+            <name>access_token_url</name>
+            <label>Accesstoken URL</label>
+            <label lang="de-DE">Accesstoken URL</label>
+            <placeholder>https://*</placeholder>
+            <placeholder lang="de-DE">https://*</placeholder>
+            <helpText>Please enter Accesstoken Url</helpText>
+            <helpText lang="de-DE">Bitte geben Sie die Accesstoken URL ein</helpText>
+        </input-field>
+        <input-field>
+            <name>user_info_url</name>
+            <label>User Info URL</label>
+            <label lang="de-DE">User Info URL</label>
+            <placeholder>https://*</placeholder>
+            <placeholder lang="de-DE">https://*</placeholder>
+            <helpText>Please enter user info url</helpText>
+            <helpText lang="de-DE">Bitte geben Sie die user info url ein</helpText>
+        </input-field>        
+    </card>
+</config>
