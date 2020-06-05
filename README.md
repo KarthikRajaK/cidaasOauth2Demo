@@ -6,7 +6,7 @@
 
 - Move plugin to custom/plugins
 - Run bin/console plugin:update
-- Run bin/console plugin:install --activate SwagOAuth
+- Run bin/console plugin:install --activate CidaasOauth2Demo
 - Run bin/console cache:clear
 
 ## Configuration example for Cidaas (https://github.com/Cidaas/cidaas-sdk-php)
